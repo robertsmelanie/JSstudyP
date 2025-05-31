@@ -6,7 +6,7 @@ function orderPizza(name) {
 }
 
 document.getElementById('orderBtn').addEventListener('click', () => {
-    const name = docuement.getElementById('nameInput').value;
+    const name = document.getElementById('nameInput').value;
     const messageEl = document.getElementById("message");
 
     try {
