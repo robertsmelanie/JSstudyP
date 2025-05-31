@@ -12,9 +12,9 @@ document.getElementById('orderBtn').addEventListener('click', () => {
     try {
         const msg = orderPizza(name);
         messageEl.textContent = msg;
-        messageEl.style.color = "green";
+        messageEl.style.color = "blue";
     } catch (error) {
         messageEl.textContent = error.message;
-        messageEl.style.color = "red";      
+        messageEl.style.color = "orange";      
     }
 })
