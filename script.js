@@ -15,6 +15,6 @@ document.getElementById('orderBtn').addEventListener('click', () => {
         messageEl.style.color = "blue";
     } catch (error) {
         messageEl.textContent = error.message;
-        messageEl.style.color = "orange";      
+        messageEl.style.color = "red";      
     }
 })
